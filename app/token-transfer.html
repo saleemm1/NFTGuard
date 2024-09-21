@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Chain Transfer</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cross-chain-transfer.html">Cross-Chain Transfer</a></li>
+                <li><a href="token-transferor.html">Token Transferor</a></li>
+                <li><a href="random-number-generator.html">Random Number Generator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Cross-Chain Transfer</h1>
+        <p>Securely transfer tokens between various blockchain networks.</p>
+    </div>
+
+    <section id="transfer-form">
+        <h2>Token Transfer</h2>
+        <form id="transferForm">
+            <label for="amount">Enter amount:</label>
+            <input type="text" id="amount" name="amount" required>
+
+            <label for="network">Select destination network:</label>
+            <select id="network" name="network" required>
+                <option value="avalanche">Avalanche Fuji</option>
+                <option value="sepolia">Sepolia</option>
+                <option value="base-sepolia">Base Sepolia</option>
+            </select>
+
+            <button type="submit" class="btn">Start Transfer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NFTGuard. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
