@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Chain NFT Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/random-number.html">Random Number Generator</a></li>
+                <li><a href="pages/price-consumer.html">Price Consumer</a></li>
+                <li><a href="pages/token-transfer.html">Token Transfer</a></li>
+                <li><a href="pages/cross-chain-messaging.html">Cross-Chain Messaging</a></li>
+                <li><a href="pages/nft-minting.html">NFT Minting</a></li>
+                <li><a href="pages/data-protection.html">Data Protection</a></li>
+                <li><a href="pages/transaction-notifications.html">Transaction Notifications</a></li>
+                <li><a href="pages/network-analysis.html">Network Analysis</a></li>
+                <li><a href="pages/user-dashboard.html">User Dashboard</a></li>
+            </ul>
+            <!-- Wallet Connect Button -->
+            <button id="connect-wallet-btn" class="btn">Connect Wallet</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Cross-Chain NFT Marketplace</h1>
+        <p>Effortlessly transfer NFTs and tokens across multiple blockchain networks with security and reliability.</p>
+        <a href="#features" class="btn">Explore Features</a>
+    </section>
+
+    <section id="features">
+        <h2>Project Features</h2>
+        <p>This project enables seamless interaction across various blockchain networks including Sepolia, Base, and Avalanche Fuji.</p>
+        
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>🎲 Random Number Generator</h3>
+                <p>Request random numbers via Chainlink VRF.</p>
+                <a href="pages/random-number.html" class="btn">Get Started</a>
+            </div>
+            <div class="feature">
+                <h3>📈 Price Consumer</h3>
+                <p>Access the latest price data using Chainlink.</p>
+                <a href="pages/price-consumer.html" class="btn">Learn More</a>
+            </div>
+            <div class="feature">
+                <h3>🔄 Cross-Chain Transfer</h3>
+                <p>Transfer tokens between blockchain networks securely.</p>
+                <a href="pages/token-transfer.html" class="btn">Start Transfer</a>
+            </div>
+            <div class="feature">
+                <h3>✉️ Cross-Chain Messaging</h3>
+                <p>Send messages across multiple blockchains.</p>
+                <a href="pages/cross-chain-messaging.html" class="btn">Learn More</a>
+            </div>
+            <div class="feature">
+                <h3>🖼️ Cross-Chain NFT Minting</h3>
+                <p>Mint and transfer NFTs across different blockchains.</p>
+                <a href="pages/nft-minting.html" class="btn">Start Minting</a>
+            </div>
+            <div class="feature">
+                <h3>🔒 Data Protection</h3>
+                <p>Encrypt data during transfers for enhanced security.</p>
+                <a href="pages/data-protection.html" class="btn">Learn More</a>
+            </div>
+            <div class="feature">
+                <h3>📩 Transaction Notifications</h3>
+                <p>Receive alerts on transaction success or failure.</p>
+                <a href="pages/transaction-notifications.html" class="btn">Learn More</a>
+            </div>
+            <div class="feature">
+                <h3>📊 Network Analysis</h3>
+                <p>Live analytics on network status and performance.</p>
+                <a href="pages/network-analysis.html" class="btn">Learn More</a>
+            </div>
+            <div class="feature">
+                <h3>👤 User Dashboard</h3>
+                <p>View your account balance and transaction history.</p>
+                <a href="pages/user-dashboard.html" class="btn">Access Dashboard</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wallet Connect Modal -->
+    <div id="wallet-modal" class="modal">
+        <div class="modal-content">
+            <h2>Connect a Wallet</h2>
+            <ul class="wallet-options">
+                <li id="metamask">MetaMask</li>
+                <li id="walletconnect">WalletConnect</li>
+                <li id="ledger">Ledger</li>
+                <li id="coinbase">Coinbase Wallet</li>
+                <li id="rainbow">Rainbow</li>
+            </ul>
+            <div id="wallet-info">
+                <p><strong>What is a Wallet?</strong></p>
+                <p>A Home for your Digital Assets</p>
+                <p>Wallets are used to send, receive, store, and display digital assets like Ethereum and NFTs.</p>
+                <p><strong>A New Way to Log In</strong></p>
+                <p>Instead of creating new accounts and passwords on every website, just connect your wallet.</p>
+            </div>
+            <button id="close-modal" class="btn">Close</button>
+        </div>
+    </div>
+
+    <!-- QR Code Modal -->
+    <div id="qr-modal" class="modal">
+        <div class="modal-content">
+            <h2>Scan with MetaMask</h2>
+            <img id="qr-code" src="path-to-qr-code-image.png" alt="QR Code">
+            <p>Don't have MetaMask? <a href="https://metamask.io/">GET</a></p>
+            <button id="close-qr-modal" class="btn">Close</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cross-Chain NFT Marketplace. All rights reserved.</p>
+    </footer>
+
+    <script src="connect-wallet.js"></script>
+</body>
+</html>
